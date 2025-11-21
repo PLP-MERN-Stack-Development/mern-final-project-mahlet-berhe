@@ -1,52 +1,32 @@
-# MERN Stack Capstone Project
+# DailyWork Ethiopia
 
-This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
+MERN stack micro-job marketplace for daily workers in Ethiopia (SDG 8).
 
-## Assignment Overview
+## Summary
+DailyWork Ethiopia connects daily workers (cleaners, carpenters, tailors, delivery riders, etc.) with local short-term work in cities like Addis Ababa. The platform emphasizes low-bandwidth UX, phone-first auth, basic verification, and ratings to increase trust and income for informal workers.
 
-You will:
-1. Plan and design a full-stack MERN application
-2. Develop a robust backend with MongoDB, Express.js, and Node.js
-3. Create an interactive frontend with React.js
-4. Implement testing across the entire application
-5. Deploy the application to production
+## SDG alignment
+**SDG 8 — Decent Work and Economic Growth**
 
-## Getting Started
+---
 
-1. Accept the GitHub Classroom assignment
-2. Clone the repository to your local machine
-3. Follow the instructions in the `Week8-Assignment.md` file
-4. Plan, develop, and deploy your capstone project
+## Features (MVP)
+- Worker/Employer auth (JWT)
+- Post, browse, and apply to jobs
+- Accept/assign and complete job workflow
+- Messaging (basic REST chat)
+- Ratings & reviews
+- Localization (Amharic + English)
+- Mobile-first responsive UI
 
-## Files Included
+## Tech stack
+- Frontend: React (Vite) + Tailwind CSS
+- Backend: Node.js + Express
+- Database: MongoDB Atlas (Mongoose)
+- Authentication: JWT (access tokens)
+- File storage: Cloudinary (images)
+- Optional real-time: Socket.IO
 
-- `Week8-Assignment.md`: Detailed assignment instructions
+---
 
-## Requirements
-
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- npm or yarn
-- Git and GitHub account
-- Accounts on deployment platforms (Render/Vercel/Netlify/etc.)
-
-## Project Ideas
-
-The `Week8-Assignment.md` file includes several project ideas, but you're encouraged to develop your own idea that demonstrates your skills and interests.
-
-## Submission
-
-Your project will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
-
-1. Commit and push your code regularly
-2. Include comprehensive documentation
-3. Deploy your application and add the live URL to your README.md
-4. Create a video demonstration and include the link in your README.md
-
-## Resources
-
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [GitHub Classroom Guide](https://docs.github.com/en/education/manage-coursework-with-github-classroom) 
+## Repo structure (recommended)
